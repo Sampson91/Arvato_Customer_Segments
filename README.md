@@ -1,15 +1,16 @@
 #  Capstone Project: Create a Customer Segmentation Report for Arvato Financial Services
 
-  In this project, I will analyze demographics data for customers of a mail-order sales company in Germany,
-comparing it against demographics information for the general population. use use unsupervised learning 
-techniques to perform customer segmentation, identifying the parts of the population that best describe the core
-customer base of the company. Then, I will apply what you've learned on a third dataset with demographics information 
-for targets of a marketing campaign for the company, and use a model to predict which individuals are most likely to
-convert into becoming customers for the company. The data that you will use has been provided by our partners at Bertelsmann 
-Arvato Analytics, and represents a real-life data science task <br>
+  For Udacity Data Scientist Capstone Project Arvato Financial Solutions: Identify Customers from a Mailout Campaign, this is a mail-order sales company in Germany is interested in identifying segments of the general population to target with their marketing in order to grow. Demographics information has been provided for both the general population at large as well as for prior customers of the mail-order company in order to build a model of the customer base of the company. The target dataset contains demographics information for targets of a mailout marketing campaign. The objective is to identify which individuals are most likely to respond to the campaign and become customers of the mail-order company. <br>
 
+## at Arvato Project Workbook.ipynb document have <br>
 ### part I : Cluster data analysis
-In this project, I analyzed AZDIAS data through clustering and compared it with CUSTOMERS data for comparative analysis. <br>
+In this aprt, I analyzed AZDIAS data through clustering and compared it with CUSTOMERS data for comparative analysis. <br>
+first I analysis missing data.<br>
+
+find missing data I explore after to fill na data.<br>
+fill data after,I use silhouette score evluate model.<br>
+cluster 4 class compare customer data.<br>
+
 
 ### part II: Supervised learning
 At this module I use RandomForestClassifier 、GradientBoostingClassifier、
