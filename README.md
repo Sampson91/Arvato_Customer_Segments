@@ -8,16 +8,18 @@ In this aprt, I analyzed AZDIAS data through clustering and compared it with CUS
 first I analysis missing data.<br>
 
 find missing data I explore after to fill na data.<br>
+![avatar](/Image/missing_data.png)
 fill data after,I use silhouette score evluate model.<br>
+![avatar](/Image/silhouette_score.png)
 cluster 4 class compare customer data.<br>
-
+![avatar](/Image/data_comparte.png)
 
 ### part II: Supervised learning
 At this module I use RandomForestClassifier 、GradientBoostingClassifier、
-LGBMClassifier、MLPClassifier、LogisticRegression、Xgboosting model for train Udacity_MAILOUT_052018_TRAIN data. <br>
-
+LGBMClassifier、MLPClassifier、LogisticRegression、Xgboosting model for train Udacity_MAILOUT_052018_TRAIN data. this is validation socre <br>
+![avatar](/Image/model_compare.png)
 ### part III: predicted data to kaggle
 I predict Udacity_MAILOUT_052018_TEST data to submit kaggle.<br>
-
+![avatar](/Image/kaggle_score.png)
 ### part IV: report
 this is my reprot url: https://medium.com/@yangwang_57085/for-arvato-financial-services-find-value-customer-b7aa8445717b
