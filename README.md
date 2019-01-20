@@ -8,9 +8,9 @@ In this aprt, I analyzed AZDIAS data through clustering and compared it with CUS
 first I analysis missing data.<br>
 
 find missing data I explore after to fill na data.<br>
- ![avatar](/Image/missing_data.png)
+ ![avatar](/Image/missing_data.png)<br>
 fill data after,I use silhouette score evluate model.<br>
-![avatar](/Image/silhouette_score.png)
+![avatar](/Image/silhouette_score.png)<br>
 cluster 4 class compare customer data.<br>
 ![avatar](/Image/data_comparte.png)
 
