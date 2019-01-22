@@ -26,7 +26,7 @@ LGBMClassifier、MLPClassifier、LogisticRegression、Xgboosting model for train
 ### part III: predicted data to kaggle
 Since the project prediction is a binary classification, all the prediction results can be evaluated using a confusion matrix.
 However, the confusion matrix has too many evaluation indicators to evaluate the classification results with one indicator, so the ROC curve AUC area is used to integrate the results of the confusion matrix to evaluate the classification effect.<br>
-![avatar](/Image/roc_auc.png)  ![avatar](/Image/formula.png) <br>
+![avatar](/Image/roc_auc.jpeg)  ![avatar](/Image/formula.jpeg) <br>
 I predict Udacity_MAILOUT_052018_TEST data to submit kaggle.<br>
 ![avatar](/Image/kaggle_score.png)
 ### part IV: report
