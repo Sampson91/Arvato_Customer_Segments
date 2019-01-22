@@ -29,6 +29,7 @@ However, the confusion matrix has too many evaluation indicators to evaluate the
 ![avatar](/Image/roc_auc.jpeg)  ![avatar](/Image/formula.jpeg) <br>
 The ROC curve AUC area can be represented by the  cograph left . The RCO curve is a comprehensive indicator of sensitivity and specificity. It calculates a series of sensitivities and specificities by setting successive variables to different thresholds. Then the sensitivity is plotted on the ordinate and the specificity is plotted on the abscissa. The larger the area under the curve, the higher the accuracy of the discrimination. On the ROC curve, the point closest to the upper left of the graph is a critical value with higher sensitivity and specificity. AUC is the area under the curve.The coordinate formula is cograph right.<br>
 So using the roc_auc indicator can be a good way to evaluate the model classification results.<br>
+The AUC value is a probability value. When you randomly select a positive sample and a negative sample, the probability that the current classification algorithm ranks the positive sample in front of the negative sample according to the Score value calculated is the AUC value.Of course, the larger the AUC value is, the more likely the current classification algorithm will rank the positive sample before the negative sample, that is, it can better classify. <br>
 At end I use model predict Udacity_MAILOUT_052018_TEST data to submit kaggle.<br>
 ![avatar](/Image/kaggle_score.png)<br>
 ### part IV: report
