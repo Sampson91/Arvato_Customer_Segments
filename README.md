@@ -27,6 +27,8 @@ LGBMClassifier、MLPClassifier、LogisticRegression、Xgboosting model for train
 Since the project prediction is a binary classification, all the prediction results can be evaluated using a confusion matrix.
 However, the confusion matrix has too many evaluation indicators to evaluate the classification results with one indicator, so the ROC curve AUC area is used to integrate the results of the confusion matrix to evaluate the classification effect.<br>
 ![avatar](/Image/roc_auc.jpeg)  ![avatar](/Image/formula.jpeg) <br>
+The ROC curve AUC area can be represented by the  cograph left . The RCO curve is a comprehensive indicator of sensitivity and specificity. It calculates a series of sensitivities and specificities by setting successive variables to different thresholds. Then the sensitivity is plotted on the ordinate and the specificity is plotted on the abscissa. The larger the area under the curve, the higher the accuracy of the discrimination. On the ROC curve, the point closest to the upper left of the graph is a critical value with higher sensitivity and specificity. AUC is the area under the curve.The coordinate formula is cograph right.<br>
+So using the roc_auc indicator can be a good way to evaluate the model classification results.
 I predict Udacity_MAILOUT_052018_TEST data to submit kaggle.<br>
 ![avatar](/Image/kaggle_score.png)
 ### part IV: report
